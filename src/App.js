@@ -29,6 +29,7 @@ class App extends Component {
     this.fetch = this.fetch.bind(this);
   }
 
+  
   fetch() {
     console.log('Props');
     this.props.fetchPosts();
